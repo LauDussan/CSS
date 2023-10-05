@@ -1,0 +1,138 @@
+.secciones{
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.izquierda{
+    display:grid;
+    grid-template-columns: ;
+    background-color: rgb(7, 87, 141);
+    color: white;
+}
+
+.izquierda h2{
+    text-align: center; 
+}
+
+#perfil{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+
+.contacto{
+    /*display: flex;
+    justify-content: flex-start;*/
+    width: 20px;
+    background-color: white;
+    border: 10px solid;
+    border-radius:10px;
+    padding-left: 30px;
+}
+
+.progreso{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.barra{
+    height: 100%;
+    background: white;
+    display: flex;
+    align-items:center;
+    transition: width 0.25s;
+    border-radius: 5px;
+    color:black;
+    
+}
+
+
+.hobbies1{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+
+.hobbies{
+    width: 70px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid;
+    border-radius: 5px;
+
+}
+
+
+.derecha{
+    display: grid;
+    grid-template-columns: ;
+    align-content: center;
+    text-align: center;
+
+}
+
+p{
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+#nombres{
+    font-size: 50px;
+    color: rgb(7, 87, 141);;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#apellidos{
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 10px;
+}
+.derecha h2{
+    background-color: rgb(7, 87, 141);
+    background-size: 2%;
+    border-radius: 50px;
+    text-align: center;
+    margin: 50px;
+    padding: 5px;    
+}
+
+h3{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.educacion{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.experiencia{
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+
+
+
